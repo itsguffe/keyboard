@@ -1,15 +1,11 @@
 
 # parsed and then tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
+# then parsed and tewaked from: https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml
 layout:
   qmk_keyboard: corne_rotated
   qmk_layout: LAYOUT_split_3x6_3
 layers:
   QWERTY:
-    - ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "/"]
-    - ["LShft", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'"]
-    - ["LCtrl", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "Bspace", "Esc"]
-    - ["LGui", "Number", "Space", "Enter", "Symbol", "RAlt"]
-  DANISH:
     - ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Å"]
     - ["LShft", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Æ", "Ø"]
     - ["LCtrl", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "Bspace", "Esc"]
@@ -21,7 +17,7 @@ layers:
     - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
   SYMBOL:
     - ["Tab", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "Bspace"]
-    - ["LCtrl", null, null, null, null, null, "-", "=", "[", "]", "\\", "`"]
+    - ["LCtrl", null, null, null, "/", "\\", "-", "=", "[", "]", "'", "`"]
     - ["LShft", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
     - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
   
