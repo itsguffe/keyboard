@@ -12,12 +12,12 @@ layers:
     - ["LGui", "Number", "Space", "Enter", "Symbol", "RAlt"]
   NUMBER:
     - ["Tab", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Bspace"]
-    - ["LShft", "BT 1", "BT 2", "BT 3", "BT 4", "BT 5", "Left", "Down", "Up", "Right", null, null]
+    - ["LShft", "BT 1", "BT 2", "BT 3", "BT 4", "BT 5", "Left", "Down", "Up", "Right", "PRTSC", "DEL"]
     - ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"]
     - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
   SYMBOL:
     - ["Tab", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "Bspace"]
-    - ["LShft", null, null, null, "/", "\\", "-", "=", "[", "]", "'", "`"]
-    - ["LCtrl", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
+    - ["LShft", "½", null, null, "/", "\\", "-", "=", "[", "]", "'", "`"]
+    - ["LCtrl", "Prev", "Play", "Next", "Mute", null, "_", "+", "{", "}", "|", "~"]
     - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
   
