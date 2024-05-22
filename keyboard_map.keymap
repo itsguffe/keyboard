@@ -17,7 +17,7 @@ layers:
     - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
   SYMBOL:
     - ["Tab", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "Bspace"]
-    - ["LCtrl", null, null, null, "/", "\\", "-", "=", "[", "]", "'", "`"]
-    - ["LShft", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
+    - ["LShft", null, null, null, "/", "\\", "-", "=", "[", "]", "'", "`"]
+    - ["LCtrl", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
     - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
   
