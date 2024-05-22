@@ -1,0 +1,4 @@
+del
+prtsc
+prev - play/pause - next - mute
+vol up - vol down
