@@ -1,7 +1,7 @@
 
 # parsed and then tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
 # then parsed and tewaked from: https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml
-layout:
+#layout:
   qmk_keyboard: corne_rotated
   qmk_layout: LAYOUT_split_3x6_3
 layers:
@@ -11,13 +11,13 @@ layers:
     - ["LCtrl", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "Bspace", "Esc"]
     - ["LGui", "Number", "Space", "Enter", "Symbol", "RAlt"]
   NUMBER:
-    - ["Tab", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Bspace"]
-    - ["LShft", "BT 1", "BT 2", "BT 3", "BT 4", "BT 5", "Left", "Down", "Up", "Right", "PRTSC", "DEL"]
-    - ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"]
-    - ["LGui", {type: held}, null, null, null, "RAlt"]
+    - [null, "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", null]
+    - ["F1", "F2", "F3", "F4", "F5", "F6", "Left", "Down", "Up", "Right", "PRTSC", "DEL"]
+    - ["F7", "F8", "F9", "F10", "F11", "F12", null, null, null, null, "Bspace", null]
+    - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
   SYMBOL:
-    - ["Tab", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "Bspace"]
-    - ["LShft", "½", null, null, "/", "\\", "-", "=", "[", "]", "'", "`"]
-    - ["LCtrl", "Prev", "Play", "Next", "Mute", null, "_", "+", "{", "}", "|", "~"]
-    - ["LGui", null, null, null, {type: held}, "RAlt"]
+    - [null, "!", "@", "#", "$", "%", "&", "^", "(", ")", "*", "Bspace"]
+    - [null, "½", "\"", null, "/", "\\", "-", "=", "[", "]", "'", "`"]
+    - [null, "Prev", "Play", "Next", "Mute", null, "_", "+", "{", "}", "|", "~"]
+    - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
   
