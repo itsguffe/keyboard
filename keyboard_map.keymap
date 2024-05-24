@@ -16,8 +16,8 @@ layers:
     - ["F7", "F8", "F9", "F10", "F11", "F12", null, null, null, null, "Bspace", null]
     - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
   SYMBOL:
-    - [null, "!", "@", "#", "$", "%", "&", "^", "(", ")", "*", "Bspace"]
+    - [null, "!", "@", "#", "$", "%", "&", "^", "(", ")", "*", "|"]
     - [null, "½", "\"", null, "/", "\\", "-", "=", "[", "]", "'", "`"]
-    - [null, "Prev", "Play", "Next", "Mute", null, "_", "+", "{", "}", "|", "~"]
+    - [null, "Prev", "Play", "Next", "Mute", null, "_", "+", "{", "}", "Bspace", "~"]
     - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
   
