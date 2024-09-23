@@ -1,23 +1,20 @@
-
-# parsed and then tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
-# then parsed and tewaked from: https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml
-#layout:
+# tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
+layout:
   qmk_keyboard: corne_rotated
   qmk_layout: LAYOUT_split_3x6_3
 layers:
   QWERTY:
-    - ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Å"]
+    - ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Bspace"]
     - ["LShft", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Æ", "Ø"]
     - ["LCtrl", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "Bspace", "Esc"]
-    - ["LGui", "Number", "Space", "Enter", "Symbol", "RAlt"]
+    - ["LGui", "Symbol", "Space", "Enter", "Number", "LAlt"]
   NUMBER:
-    - [null, "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", null]
-    - ["F1", "F2", "F3", "F4", "F5", "F6", "Left", "Down", "Up", "Right", "PRTSC", "DEL"]
-    - ["F7", "F8", "F9", "F10", "F11", "F12", null, null, null, null, "Bspace", null]
-    - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
+    - ["Tab", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Bspace"]
+    - ["LShft", "F1", "F2", "F3", "F4", "F5", "Left", "Down", "Up", "Right", "PRTSC", "DEL"]
+    - ["LCtrl", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Å", null, null, "Esc"]
+    - ["LGui", null, "Space", "Enter", {type: held}, "LAlt"]
   SYMBOL:
-    - [null, "!", "@", "#", "$", "%", "&", "^", "(", ")", "*", "|"]
-    - [null, "½", "\"", null, "/", "\\", "-", "=", "[", "]", "'", "`"]
-    - [null, "Prev", "Play", "Next", "Mute", null, "_", "+", "{", "}", "Bspace", "~"]
-    - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
-  
+    - ["Tab", "!", "\"", "#", "$", "%", "&", "/", "(", ")", "*", "Bspace"]
+    - ["LShft", "<", ">", "@", "^", "\\", null, "=", "{", "}", "'", "`"]
+    - ["LCtrl", "Prev", "Play", "Next", "Mute", null, "~", "+", "[", "]", null, "Esc"]
+    - ["LGui", {type: held}, "Space", "Enter", null, "LAlt"]
